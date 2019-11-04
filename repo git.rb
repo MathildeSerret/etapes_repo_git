@@ -4,7 +4,7 @@ faire un repo sur github via le terminal et clé https
 git init
 git remote -v
 git remote add origin https://github.com/MathildeSerret/dancing_rails.git
-git add
+git add .
 git commit -m "First Commit"
 git push
 
