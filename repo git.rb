@@ -18,3 +18,10 @@ récupérer toutes les MAJ du github : git fetch --all
 
 effacer branche local : git branch -d local_mathilde
 effacer branche en remote : git push origin --delete test_mathilde
+
+quand on clone un repo : git clone lien_du_repo
+puis :
+bundle install
+rails db:create
+rails db:seed
+rails db:migrate
