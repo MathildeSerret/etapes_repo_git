@@ -33,6 +33,17 @@ git commit -m "blabla"
 git pull origin development
 si conflit : git rm -rf log
 
+manips safe :
+git checkout development_prenom
+git pull origin development
+git checkout development
+git pull origin development
+git checkout development_prenom
+git merge development
+git checkout development
+git merge development_prénom
+git push origin development
+
 pour revenir à une version antérieure, les commandes : 
 - git log #pour chercher le hash de ton commit
 - git reset --hard <commit-hash>
