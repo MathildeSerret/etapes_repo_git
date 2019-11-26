@@ -25,3 +25,10 @@ bundle install
 rails db:create
 rails db:seed
 rails db:migrate
+
+pour intégrer les changements :
+git checkout development_mathilde
+git add .
+git commit -m "blabla"
+git pull origin development
+si conflit : git rm -rf log
