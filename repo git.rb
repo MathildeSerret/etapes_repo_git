@@ -15,3 +15,6 @@ nouvelle branche : git branch test_mathilde
 aller sur une branche : git checkout test_mathilde
 mettre la nouvelle branche en remote : git push
 récupérer toutes les MAJ du github : git fetch --all
+
+effacer branche local : git branch -d local_mathilde
+effacer branche en remote : git push origin --delete test_mathilde
