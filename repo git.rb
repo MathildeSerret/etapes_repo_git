@@ -10,4 +10,6 @@ git push
 
 puis copier ce qui s'inscrit, par exemple :  git push --set-upstream origin master
 
-
+voir les branches : git branch -a
+nouvelle branche : git branch test_mathilde
+aller sur une branche : git checkout test_mathilde
