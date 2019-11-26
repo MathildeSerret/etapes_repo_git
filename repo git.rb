@@ -32,3 +32,8 @@ git add .
 git commit -m "blabla"
 git pull origin development
 si conflit : git rm -rf log
+
+pour revenir à une version antérieure, les commandes : 
+- git log #pour chercher le hash de ton commit
+- git reset --hard <commit-hash>
+- git push -f origin master
